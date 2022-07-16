@@ -1,0 +1,691 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+hr {
+    width: 1661px;
+    height: 2px;
+    background-color: #e5e6e5;
+}
+
+.btn {
+    width: 170px;
+    height: 57px;
+    border-radius: 28.5px;
+    border: none;
+    background-color: #2500f9;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    width: 170px;
+    height: 57px;
+    border-radius: 28.5px;
+    background-color: #ffffff;
+    color: #242f51;
+    border: #242f51 solid 1px;
+}
+
+.container {
+    width: 1671px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+
+}
+
+.nav-bar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #242f51;
+
+}
+
+.nav-bar:last-child {
+    margin-right: 248px;
+}
+
+.nav-bar__box {
+    display: flex;
+    justify-content: space-between;
+    width: 461px;
+    height: 18px;
+    margin-right: 57px;
+    margin-left: 366px;
+}
+
+.nav-bar__btn {
+    width: 170px;
+    height: 57px;
+    border-radius: 28.5px;
+    border: none;
+    background-color: #2500f9;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar__btn:hover {
+    width: 170px;
+    height: 57px;
+    border-radius: 28.5px;
+    background-color: #ffffff;
+    color: #242f51;
+    border: #242f51 solid 1px;
+}
+
+.first__chapter {
+    display: flex;
+    height: 865px;
+    background-image: url('../img/vector-smart-object.png'), url('../img/city.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, bottom left;
+
+}
+
+.first__chapter__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    margin-left: 358px;
+    height: 630px;
+    width: 550px;
+}
+
+.first__chapter_higher_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 362px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: #e2eaed;
+    margin-bottom: 24px;
+}
+
+.first__chapter__description h1 {
+    height: 138px;
+    width: 513px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 26px;
+}
+
+.first__chapter_lower_description {
+    width: 481px;
+    height: 47px;
+    font-size: 18px;
+    color: #616368;
+    margin-bottom: 40px;
+}
+
+
+.first__chapter img {
+    margin-left: 112px;
+}
+
+.first__chapter__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__chapter__buttons .btn {
+    margin-right: 27px;
+}
+
+.first__chapter__buttons a {
+    color: #2500f9;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.second__chapter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+}
+
+.second__chapter__title {
+    width: 207;
+    height: 18px;
+    margin-top: 114px;
+    text-align: center;
+    font-size: 16px;
+    color: #242f51;
+}
+
+.second__chapter_icons img {
+    margin-right: 73px;
+}
+
+.third__chapter {
+    display: flex;
+    margin-top: 155px;
+}
+
+.third__chapter__image {
+    height: 840px;
+    width: 575px;
+    margin-left: 265px;
+}
+
+.third__chapter__lower__description {
+    margin-left: 160px;
+}
+
+.third__chapter__higher__description h2 {
+    width: 281px;
+    font-size: 30px;
+    height: 73px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.third__chapter__higher__description p {
+    width: 428px;
+    height: 44px;
+    margin-top: 28px;
+    margin-bottom: 92px;
+    font-size: 16px;
+    color: #242f51;
+}
+
+.third__chapter__lower__description p {
+    width: 259px;
+    height: 70px;
+    font-size: 16px;
+    color: #616368;
+
+}
+
+.third__chapter__lower__description p::before {
+    position: absolute;
+    margin-left: -7rem;
+    margin-top: -1rem;
+}
+
+.third__chapter__lower__description_p1:before {
+    content: url('../img/ellipse-1.png');
+}
+
+.third__chapter__lower__description_p2:before {
+    content: url('../img/ellipse-2.png');
+}
+
+.third__chapter__lower__description_p3:before {
+    content: url('../img/ellipse-3.png');
+}
+
+.third__chapter__lower__description h3 {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.third__chapter__FastPerformance {
+    height: 17px;
+    width: 179px;
+    color: #f55767;
+}
+
+.third__chapter__Prototyping {
+    height: 22px;
+    width: 118px;
+    margin-top: 62px;
+    color: #2563ff;
+}
+
+.third__chapter__VectorEditing {
+    height: 22px;
+    width: 141px;
+    margin-top: 62px;
+    color: #40975f;
+}
+
+.fourth__chapter {
+    display: flex;
+    margin-top: 75px;
+}
+
+.fourth__chapter__title {
+    margin-left: 379px;
+    width: 421px;
+    height: 143px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #242f51;
+}
+
+.fourth__chapter__description {
+    margin-top: 40px;
+    margin-left: 127px;
+    width: 406px;
+    height: 66px;
+    font-size: 16px;
+}
+
+.fifth_chapter {
+    display: flex;
+    margin-top: 114px;
+    margin-left: 383px;
+
+}
+
+.fifth_chapter__block1 {
+    margin-right: 125px;
+}
+
+.fifth_chapter__block1_description_title {
+    margin-top: 35px;
+    width: 194px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #f55767;
+}
+
+.fifth_chapter__block1_lower_description {
+    margin-top: 15px;
+    width: 259px;
+    height: 70px;
+    font-size: 16px;
+    color: #616368;
+}
+
+.fifth_chapter__block2 {
+    margin-right: 125px;
+}
+
+.fifth_chapter__block2_description_title {
+    margin-top: 35px;
+    width: 194px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #2563ff;
+}
+
+.fifth_chapter__block2_lower_description {
+    margin-top: 15px;
+    width: 259px;
+    height: 70px;
+    font-size: 16px;
+    color: #616368;
+}
+
+.fifth_chapter__block3 {
+    margin-right: 125px;
+}
+
+.fifth_chapter__block3_description_title {
+    margin-top: 35px;
+    width: 239px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #40975f;
+}
+
+.fifth_chapter__block3_lower_description {
+    margin-top: 15px;
+    width: 259px;
+    height: 70px;
+    font-size: 16px;
+    color: #616368;
+}
+
+.sixth__chapter {
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+}
+
+.sixth__chapter_image {
+
+    margin-left: 267px;
+}
+
+.sixth__chapter_description {
+    margin-left: 111px;
+
+}
+
+.sixth__chapter__title {
+    width: 350px;
+    height: 131px;
+    font-size: 36px;
+    font-weight: 600px;
+    color: #242f51;
+}
+
+.sixth__chapter__lower_description {
+    margin-top: 30px;
+    width: 406px;
+    height: 66px;
+    font-size: 16px;
+    color: #616368;
+}
+
+.sixth__chapter__lower_description__btn {
+    margin-top: 42px;
+}
+
+.seventh__chapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventh__chapter__title {
+    margin-bottom: 35px;
+    height: 83px;
+    width: 432px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    text-align: center;
+}
+
+.seventh__chapter__description {
+    width: 632px;
+    height: 40px;
+    font-size: 16px;
+    color: #616368;
+    text-align: center;
+}
+
+.seventh__chapter__images_1pt {
+    display: flex;
+    margin-top: 94px;
+}
+
+.seventh__chapter img {
+    margin-left: 80px;
+}
+
+.seventh__chapter__default_top {
+    margin-right: 95px;
+    margin-top: 35px;
+    width: 258px;
+    height: 21px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+    text-align: center;
+}
+
+.seventh__chapter__default_low {
+    margin-right: 95px;
+    margin-top: 20px;
+    width: 258px;
+    height: 70px;
+    font-size: 16px;
+    color: #616368;
+    text-align: center;
+}
+
+.seventh__chapter__images_2pt {
+    display: flex;
+    margin-top: 70px;
+}
+.eight__chapter{
+    background-image: url('../img/man_with_phone.png');
+    background-repeat: no-repeat;
+    background-position-x: -10rem;
+    background-position-y: 36.8rem;
+    height: 1000px;
+}
+.eight__chapter__title {
+    margin-top: 150px;
+    margin-left: 627px;
+    height: 85px;
+    width: 568px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    text-align: center;
+}
+
+.eight__chapter__description {
+    margin-left: 595px;
+    margin-top: 33px;
+    height: 40px;
+    width: 632px;
+    text-align: center;
+}
+
+.container__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 87px;
+    margin-left: 770px;
+    width: 283px;
+    height: 57px;
+    border-radius: 28.5px;
+    border: solid 2px #ebebeb;
+    background-color: #ebebeb;
+}
+
+.container__slider .first_btn {
+    width: 136px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 28.5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2500f9;
+}
+
+.container__slider .second_btn {
+    width: 136px;
+    height: 48px;
+    border: none;
+    border-radius: 28.5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.eight__chapter__pricing {
+    display: flex;
+    margin-left: 594px;
+    margin-top: 43px;
+}
+
+.eight__chapter__pricing_block1 {
+    margin-right: 40px;
+    height: 234px;
+    width: 317px;
+}
+
+.eight__chapter__pricing_block2 {
+    height: 234px;
+    width: 317px;
+}
+
+.eight__chapter__pricing_block1_high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 234px;
+    width: 317px;
+    background-color: #f4f7f9;
+
+}
+
+.eight__chapter__pricing_block1_low {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 317px;
+}
+
+.eight__chapter__pricing_block1_low ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 0;
+    width: 156px;
+    height: 158px;
+    font-size: 16px;
+    color: #616368;
+
+
+}
+
+.eight__chapter__pricing_block1_low li {
+    padding-bottom: 20px;
+
+}
+
+.eight__chapter__pricing_block2_high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 234px;
+    width: 317px;
+    background-color: #f4f7f9;
+}
+
+.pricing__title__top {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.pricing__title__low {
+    text-align: center;
+}
+
+.pricing__title__low__title {
+    margin-top: 29px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #242f51;
+}
+
+.pricing__title__low__description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #999ca5;
+}
+
+.pricing__title__price {
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.pricing__title_month {
+    font-size: 18px;
+    color: #999ca5;
+    margin-bottom: 0.5rem;
+}
+
+.eight__chapter__pricing_block2_low {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 371px;
+    width: 317px;
+}
+
+.eight__chapter__pricing_block2_low a {
+    text-decoration: none;
+    width: 155px;
+    height: 18px;
+    font-size: 16px;
+    color: #2500f9;
+}
+
+.eight__chapter__pricing_block2_low ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 0;
+    width: 156px;
+    height: 158px;
+    font-size: 16px;
+    color: #616368;
+
+}
+
+.eight__chapter__pricing_block2_low li {
+    padding-bottom: 20px;
+
+}
+
+.btn_pricing {
+    width: 210px;
+    height: 56px;
+    border-radius: 28px;
+    margin-top: 42px;
+}
+.btn_pricing:hover{
+    width: 210px;
+    height: 56px;
+    border-radius: 28px;
+    margin-top: 42px;
+}
+
+.btn_pricing2 {
+    margin-bottom: 30px;
+}
+
+.btn_pricing2:hover{
+    width: 210px;
+    height: 56px;
+    border-radius: 28px;
+    margin-top: 42px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 567px;
+    background-color: #09142e;
+}
+.footer__image{
+margin-top: 114px;
+}
+.footer__nav-bar{
+    margin-top: 52px;
+}
+.footer__nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 70px;
+}
+.footer__links{
+    margin-top: 51px;
+}
+.footer__copyright{
+    margin-top: 90px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.21);
+}
